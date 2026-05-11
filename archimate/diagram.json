@@ -2,110 +2,361 @@
   "nodes": [
     {
       "id": "n1",
+      "label": "Accionistas",
       "type": "Stakeholder",
       "layer": "mot",
       "icon": "👤",
-      "label": "Stakeholder",
-      "x": 144,
-      "y": 106,
+      "x": 40,
+      "y": 18,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n2",
-      "type": "Stakeholder",
+      "label": "Rentabilidad",
+      "type": "Goal",
       "layer": "mot",
-      "icon": "👤",
-      "label": "Stakeholder",
-      "x": 323,
-      "y": 108,
+      "icon": "🎯",
+      "x": 210,
+      "y": 18,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n3",
-      "type": "Driver",
+      "label": "Eficiencia",
+      "type": "Goal",
       "layer": "mot",
-      "icon": "⚡",
-      "label": "Driver",
-      "x": 494,
-      "y": 104,
+      "icon": "🎯",
+      "x": 380,
+      "y": 18,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n4",
-      "type": "Actor",
-      "layer": "biz",
-      "icon": "🏢",
-      "label": "Actor",
-      "x": 50,
-      "y": 192,
+      "label": "Seguridad",
+      "type": "Requirement",
+      "layer": "mot",
+      "icon": "📋",
+      "x": 550,
+      "y": 18,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n5",
-      "type": "Role",
+      "label": "Dept. Ventas",
+      "type": "Actor",
       "layer": "biz",
-      "icon": "👔",
-      "label": "Role",
-      "x": 235,
-      "y": 181,
+      "icon": "🏢",
+      "x": 40,
+      "y": 150,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n6",
-      "type": "Process",
+      "label": "Gestor Pedidos",
+      "type": "Role",
       "layer": "biz",
-      "icon": "⟳",
-      "label": "Process",
-      "x": 494,
-      "y": 176,
+      "icon": "👔",
+      "x": 210,
+      "y": 150,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n7",
-      "type": "Component",
-      "layer": "app",
-      "icon": "⬡",
-      "label": "Component",
-      "x": 122,
-      "y": 279,
+      "label": "Gestión Pedidos",
+      "type": "Process",
+      "layer": "biz",
+      "icon": "⟳",
+      "x": 380,
+      "y": 150,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n8",
-      "type": "Device",
-      "layer": "tech",
-      "icon": "💻",
-      "label": "Device",
-      "x": 167,
-      "y": 378,
+      "label": "Svc. Facturación",
+      "type": "Service",
+      "layer": "biz",
+      "icon": "◈",
+      "x": 550,
+      "y": 150,
       "description": "",
       "stereotype": ""
     },
     {
       "id": "n9",
+      "label": "Pedido",
+      "type": "Object",
+      "layer": "biz",
+      "icon": "▣",
+      "x": 720,
+      "y": 150,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n10",
+      "label": "App. Ventas",
+      "type": "Component",
+      "layer": "app",
+      "icon": "⬡",
+      "x": 40,
+      "y": 282,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n11",
+      "label": "Svc. Pedidos",
+      "type": "AppService",
+      "layer": "app",
+      "icon": "◈",
+      "x": 210,
+      "y": 282,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n12",
+      "label": "API Gateway",
+      "type": "Interface",
+      "layer": "app",
+      "icon": "⤇",
+      "x": 380,
+      "y": 282,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n13",
+      "label": "BD Pedidos",
+      "type": "DataObject",
+      "layer": "app",
+      "icon": "🗄",
+      "x": 550,
+      "y": 282,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n14",
+      "label": "App. Facturación",
+      "type": "Component",
+      "layer": "app",
+      "icon": "⬡",
+      "x": 720,
+      "y": 282,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n15",
+      "label": "Servidor App",
+      "type": "Node",
+      "layer": "tech",
+      "icon": "◫",
+      "x": 40,
+      "y": 406,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n16",
+      "label": "K8s Cluster",
+      "type": "SystemSW",
+      "layer": "tech",
+      "icon": "⚙",
+      "x": 210,
+      "y": 406,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n17",
+      "label": "Red Corporativa",
+      "type": "Network",
+      "layer": "tech",
+      "icon": "🌐",
+      "x": 380,
+      "y": 406,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n18",
+      "label": "PostgreSQL",
       "type": "Device",
       "layer": "tech",
       "icon": "💻",
-      "label": "Device",
-      "x": 494,
-      "y": 376,
+      "x": 550,
+      "y": 406,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n19",
+      "label": "Svc. DB",
+      "type": "TechService",
+      "layer": "tech",
+      "icon": "◈",
+      "x": 720,
+      "y": 406,
       "description": "",
       "stereotype": ""
     }
   ],
-  "conns": [],
-  "nid": 10,
+  "conns": [
+    {
+      "id": "c20",
+      "from": "n1",
+      "to": "n2",
+      "rel": "influence",
+      "label": ""
+    },
+    {
+      "id": "c21",
+      "from": "n2",
+      "to": "n7",
+      "rel": "realization",
+      "label": ""
+    },
+    {
+      "id": "c22",
+      "from": "n3",
+      "to": "n7",
+      "rel": "influence",
+      "label": ""
+    },
+    {
+      "id": "c23",
+      "from": "n5",
+      "to": "n6",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c24",
+      "from": "n6",
+      "to": "n7",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c25",
+      "from": "n7",
+      "to": "n8",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c26",
+      "from": "n7",
+      "to": "n9",
+      "rel": "flow",
+      "label": ""
+    },
+    {
+      "id": "c27",
+      "from": "n7",
+      "to": "n11",
+      "rel": "realization",
+      "label": ""
+    },
+    {
+      "id": "c28",
+      "from": "n8",
+      "to": "n14",
+      "rel": "realization",
+      "label": ""
+    },
+    {
+      "id": "c29",
+      "from": "n10",
+      "to": "n11",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c30",
+      "from": "n11",
+      "to": "n12",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c31",
+      "from": "n12",
+      "to": "n13",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c32",
+      "from": "n11",
+      "to": "n13",
+      "rel": "composition",
+      "label": ""
+    },
+    {
+      "id": "c33",
+      "from": "n14",
+      "to": "n12",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c34",
+      "from": "n10",
+      "to": "n15",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c35",
+      "from": "n11",
+      "to": "n16",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c36",
+      "from": "n12",
+      "to": "n17",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c37",
+      "from": "n13",
+      "to": "n18",
+      "rel": "assignment",
+      "label": ""
+    },
+    {
+      "id": "c38",
+      "from": "n18",
+      "to": "n19",
+      "rel": "serving",
+      "label": ""
+    },
+    {
+      "id": "c39",
+      "from": "n15",
+      "to": "n16",
+      "rel": "composition",
+      "label": ""
+    }
+  ],
+  "nid": 40,
   "meta": {
-    "updatedAt": "2026-05-11T22:57:57.997Z",
-    "nodeCount": 9,
-    "connCount": 0,
+    "updatedAt": "2026-05-11T22:58:09.080Z",
+    "nodeCount": 19,
+    "connCount": 20,
     "tool": "ArchiMate Modeler v2"
   }
 }
