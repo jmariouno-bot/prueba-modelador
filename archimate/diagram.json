@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "Stakeholder",
+      "layer": "mot",
+      "icon": "👤",
+      "label": "Stakeholder",
+      "x": 144,
+      "y": 106,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n2",
+      "type": "Stakeholder",
+      "layer": "mot",
+      "icon": "👤",
+      "label": "Stakeholder",
+      "x": 323,
+      "y": 108,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n3",
+      "type": "Driver",
+      "layer": "mot",
+      "icon": "⚡",
+      "label": "Driver",
+      "x": 494,
+      "y": 104,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n4",
+      "type": "Actor",
+      "layer": "biz",
+      "icon": "🏢",
+      "label": "Actor",
+      "x": 50,
+      "y": 192,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n5",
+      "type": "Role",
+      "layer": "biz",
+      "icon": "👔",
+      "label": "Role",
+      "x": 235,
+      "y": 181,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n6",
+      "type": "Process",
+      "layer": "biz",
+      "icon": "⟳",
+      "label": "Process",
+      "x": 494,
+      "y": 176,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n7",
+      "type": "Component",
+      "layer": "app",
+      "icon": "⬡",
+      "label": "Component",
+      "x": 122,
+      "y": 279,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n8",
+      "type": "Device",
+      "layer": "tech",
+      "icon": "💻",
+      "label": "Device",
+      "x": 167,
+      "y": 378,
+      "description": "",
+      "stereotype": ""
+    },
+    {
+      "id": "n9",
+      "type": "Device",
+      "layer": "tech",
+      "icon": "💻",
+      "label": "Device",
+      "x": 494,
+      "y": 376,
+      "description": "",
+      "stereotype": ""
+    }
+  ],
+  "conns": [],
+  "nid": 10,
+  "meta": {
+    "updatedAt": "2026-05-11T22:57:57.997Z",
+    "nodeCount": 9,
+    "connCount": 0,
+    "tool": "ArchiMate Modeler v2"
+  }
+}
